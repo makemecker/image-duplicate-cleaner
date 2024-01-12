@@ -34,7 +34,7 @@ def calculate_hash(file_path):
 
 
 def remove_dupls(duplicate_image_dir: str) -> int | None:
-    """ Перемещает изображения-дубликаты в отдельную папку"""
+    """ Удаляет изображения-дубликаты"""
 
     if not check_image_path(duplicate_image_dir):
         return
